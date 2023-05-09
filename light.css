@@ -116,3 +116,8 @@ main .gsc-loading-image {
 
   box-shadow: unset;
 }
+
+/* 隐藏工具栏 */
+.gsc-comment-box-md-toolbar {
+  display: none;
+}
