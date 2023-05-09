@@ -89,6 +89,19 @@ main .gsc-loading-image {
   background-image: url("https://github.githubassets.com/images/mona-loading-default.gif");
 }
 
+/* 全局设置 */
+main {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* 全局代码设置 */
+code,
+kbd,
+pre,
+samp {
+  font-family: "Monaco", monospace;
+}
+
 /* 修复“写回复”输入框体颜色错误 */
 .cursor-text {
   color: #999;
