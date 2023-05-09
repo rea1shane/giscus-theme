@@ -104,7 +104,7 @@ main .gsc-loading-image {
   background-color: #eaeef2;
   border: unset;
   box-shadow: unset;
-  padding: 4px 12px;
+  padding: 5px 12px;
 }
 
 .btn.BtnGroup-item[aria-selected="true"] {
