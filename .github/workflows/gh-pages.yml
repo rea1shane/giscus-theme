@@ -11,6 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Minify CSS
+        uses: nizarmah/auto-minify@v2.1.1
+        with:
+          overwrite: true
+
       # https://github.com/marketplace/actions/github-pages-action
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
