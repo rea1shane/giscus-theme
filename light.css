@@ -130,6 +130,11 @@ samp {
   box-shadow: unset;
 }
 
+/* 隐藏 powered by */
+em.color-text-secondary.text-sm {
+  display: none;
+}
+
 /* 隐藏工具栏 */
 .gsc-comment-box-md-toolbar {
   display: none;
