@@ -196,3 +196,8 @@ em.color-text-secondary.text-sm {
 .markdown ul ul ul ul ul ul {
   list-style-type: circle;
 }
+
+/* 链接 */
+a:hover {
+  text-decoration-line: unset;
+}
