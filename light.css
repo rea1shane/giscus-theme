@@ -112,6 +112,11 @@ button.link-secondary.text-sm>svg {
   color: #999;
 }
 
+/* 态度区 */
+.gsc-reactions {
+  margin-bottom: 48px;
+}
+
 /* 排序按钮 */
 .BtnGroup {
   background-color: #eaeef2;
