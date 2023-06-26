@@ -88,12 +88,12 @@ main .gsc-loading-image {
   background-image: url("https://github.githubassets.com/images/mona-loading-default.gif");
 }
 
-/* 全局设置 */
+/* 字体 */
 main {
   font-family: "Nunito Sans", sans-serif;
 }
 
-/* 全局代码设置 */
+/* 代码字体 */
 code,
 kbd,
 pre,
@@ -106,17 +106,12 @@ button.link-secondary.text-sm>svg {
   height: 20px;
 }
 
-/* 修复“写回复”输入框体颜色错误 */
-.cursor-text {
-  color: #999;
-}
-
 /* 态度区 */
 .gsc-reactions {
   margin-bottom: 48px;
 }
 
-/* 排序按钮 */
+/* 排序按钮样式 */
 .BtnGroup {
   background-color: #eaeef2;
   border-radius: 0.375rem;
@@ -149,7 +144,7 @@ em.color-text-secondary.text-sm {
   display: none;
 }
 
-/* Markdown */
+/* 评论正文 */
 /* Headings */
 .markdown h1 {
   font-size: 2em;
@@ -194,9 +189,4 @@ em.color-text-secondary.text-sm {
 .markdown ul ul ul ul,
 .markdown ul ul ul ul ul ul {
   list-style-type: circle;
-}
-
-/* 链接 */
-a:hover {
-  text-decoration-line: unset;
 }
