@@ -106,6 +106,12 @@ button.link-secondary.text-sm>svg {
   height: 20px;
 }
 
+/* 链接鼠标悬浮 */
+a:hover {
+  /* 取消下划线 */
+  text-decoration-line: unset;
+}
+
 /* 态度区 */
 .gsc-reactions {
   margin-bottom: 48px;
@@ -194,10 +200,4 @@ em.color-text-secondary.text-sm {
 .markdown ul ul ul ul,
 .markdown ul ul ul ul ul ul {
   list-style-type: circle;
-}
-
-/* 链接鼠标悬浮 */
-a:hover {
-  /* 取消下划线 */
-  text-decoration-line: unset;
 }
