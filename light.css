@@ -144,6 +144,11 @@ em.color-text-secondary.text-sm {
   display: none;
 }
 
+/* 回复的态度区离正文远一点点 */
+.gsc-reply-footer {
+  margin-top: 0.25rem;
+}
+
 /* 评论正文 */
 /* Headings */
 .markdown h1 {
@@ -189,4 +194,10 @@ em.color-text-secondary.text-sm {
 .markdown ul ul ul ul,
 .markdown ul ul ul ul ul ul {
   list-style-type: circle;
+}
+
+/* 链接鼠标悬浮 */
+a:hover {
+  /* 取消下划线 */
+  text-decoration-line: unset;
 }
