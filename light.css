@@ -130,7 +130,7 @@ a:hover {
   padding: 5px 12px;
 }
 
-.BtnGroup-item--selected {
+.BtnGroup-item.BtnGroup-item--selected {
   font-weight: 600;
   background-color: white;
 
