@@ -130,7 +130,7 @@ a:hover {
   padding: 5px 12px;
 }
 
-.btn.BtnGroup-item[aria-selected="true"] {
+.BtnGroup-item--selected {
   font-weight: 600;
   background-color: white;
 
