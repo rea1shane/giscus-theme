@@ -1,0 +1,3 @@
+--color-btn-primary-disabled-bg: 被禁用的按钮
+--color-btn-primary-bg: 按钮
+--color-btn-primary-hover-bg：鼠标悬浮的按钮
