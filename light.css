@@ -1,10 +1,35 @@
-/*! MIT License
- * Copyright (c) 2018 GitHub Inc.
- * https://github.com/primer/primitives/blob/main/LICENSE
- */
+:root {
+  --gap: 24px;
+  --nav-width: 1024px;
+  --main-width: 720px;
+  --header-height: 60px;
+  --footer-height: 60px;
+  --radius: 8px;
+  --theme: rgb(255, 255, 255);
+  --entry: rgb(255, 255, 255);
+  --primary: rgb(30, 30, 30);
+  --secondary: rgb(108, 108, 108);
+  --tertiary: rgb(214, 214, 214);
+  --content: rgb(31, 31, 31);
+  --hljs-bg: rgb(28, 29, 33);
+  --border: rgb(238, 238, 238);
+
+  --transparency: 0.3;
+  --copy-icon-hovor: #ffa7c4;
+  --copied-icon: greenyellow;
+  --content-gap: 2rem;
+  --accent: #d23669;
+  --accent-rgb: 210, 54, 105;
+  --high-contrast: black;
+  --low-contrast: rgb(247, 247, 247);
+  --code-in-table-2n: rgb(231, 231, 231);
+  --copy-icon-bg: rgb(74, 75, 79);
+  --copy-icon: rgb(157, 158, 162);
+  --code-bg: rgb(239, 239, 239);
+}
 
 main {
-  --color-prettylights-syntax-comment: #6e7781;
+  --color-prettylights-syntax-comment: var(--content);
   --color-prettylights-syntax-constant: #0550ae;
   --color-prettylights-syntax-entity: #8250df;
   --color-prettylights-syntax-storage-modifier-import: #24292f;
@@ -85,7 +110,6 @@ main {
   --color-scale-gray-1: #eaeef2;
   --color-scale-blue-1: #b6e3ff;
 
-  /*! Extensions from @primer/css/alerts/flash.scss */
   --color-social-reaction-bg-hover: var(--color-scale-gray-1);
   --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-1);
 }
