@@ -95,7 +95,7 @@ main {
   --color-border-default: #d0d7de;
   --color-border-muted: hsl(210deg 18% 87% / 100%);
   --color-neutral-muted: rgb(175 184 193 / 20%);
-  --color-accent-fg: #0969da;
+  --color-accent-fg: var(--accent);
   --color-accent-emphasis: #0969da;
   --color-accent-muted: rgb(84 174 255 / 40%);
   --color-accent-subtle: #ddf4ff;
@@ -120,4 +120,27 @@ main .pagination-loader-container {
 
 main .gsc-loading-image {
   background-image: url("https://github.githubassets.com/images/mona-loading-default.gif");
+}
+
+main {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* for code */
+code,
+kbd,
+pre,
+samp {
+  font-family: "Monaco for Powerline", monospace;
+}
+
+.giscus {
+  margin-top: 56px;
+  margin-bottom: (var(--gap));
+}
+
+.gsc-left-header>em,
+.gsc-comment-box-md-toolbar,
+.gsc-comment-box-textarea-extras {
+  display: none;
 }
